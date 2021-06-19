@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica_binding.SegundPagina"
+             Title="Información">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Label Text="{Binding Nombre}" 
+                HorizontalOptions="CenterAndExpand" TextColor="#06304B" FontSize="20"/>
+            <Label Text="{Binding Apellido}" 
+                HorizontalOptions="CenterAndExpand" TextColor="#06304B" FontSize="20"/>
+            <Label Text="{Binding Edad}" 
+                HorizontalOptions="CenterAndExpand" TextColor="#06304B" FontSize="20"/>
+            <Label Text="{Binding Correo}" 
+                HorizontalOptions="CenterAndExpand" TextColor="#06304B" FontSize="20"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
